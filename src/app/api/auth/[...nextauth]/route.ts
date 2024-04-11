@@ -24,6 +24,10 @@ const handler = NextAuth({
             console.log("Session", session)
             return session
         },
+        async redirect({ url, baseUrl }) {
+            // return baseUrl
+            return Promise.resolve('http://localhost:3000/dashboard')
+        },
     },
     // debug: true,
 });
