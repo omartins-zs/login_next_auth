@@ -5,6 +5,8 @@ export default async function Page() {
 
     const session = await getServerSession();
 
+    console.log("Session", session)
+
     if (!session) {
         redirect("/");
     }
