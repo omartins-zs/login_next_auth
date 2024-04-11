@@ -1,3 +1,36 @@
+
+## 🔮 **Frameworks e Libs**
+
+- [NextAuth.js (Authentication for Next.js)](https://next-auth.js.org/)
+- [daisyUI](https://daisyui.com/)
+
+
+## Comandos 👨‍💻💻  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/>
+```bash
+
+# Criar um novo aplicativo Next.js com next-auth
+$ npm create next-app login_next_auth
+
+# Acessar o diretório do projeto
+$ cd login_next_auth/
+
+# Instalar o pacote next-auth
+$ npm install next-auth
+
+# Instalar o pacote daisyUI
+$ npm i -D daisyui@latest
+
+```
+
+###  Em seguida, adicione daisyUI aos seus arquivos tailwind.config.js:
+```bash
+module.exports = {
+  //...
+  plugins: [require("daisyui")],
+}
+```
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
